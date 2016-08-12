@@ -3,30 +3,22 @@ body {
 	line-height: 24px;
 	color: #000000;
 	font-weight: bold;
-	font-family: "PT Sans Narrow";
+	font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
 	text-transform: uppercase;
 }
 
 h1 {
 	font-size: 30px;
 	line-height: 42px;
-	color: #000000;
-	font-weight: bold;
-	font-family: "PT Sans Narrow";
 }
 
 h2 {
 	font-size: 24px;
-	line-height: 30px;
-	color: #000000;
-	font-weight: bold;
-	font-family: "PT Sans Narrow";
+	line-height: 30px;	
 }
 
 h3 {
 	font-size: 30px;
 	line-height: 42px;
 	color: #f7f4f1;
-	font-weight: bold;
-	font-family: "PT Sans Narrow";
 }
