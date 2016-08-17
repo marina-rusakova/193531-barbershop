@@ -149,6 +149,11 @@ body {
   background-color: #9fa6b8;
 }
 
+.main-content {
+  width: 940px;
+  background-color: #38ec34;
+}
+
 aside {
   float: left;
   width: 220px;
@@ -156,9 +161,13 @@ aside {
   background-color: #ae38d5;
 }
 
-.products {
-  float:right;
+.main-part {
+  float: right;
   width: 700px;
+  background-color: #e75454;
+}
+
+.products {
   min-height: 592px;
   margin-bottom: 45px;
   font-size: 0px;
@@ -190,8 +199,6 @@ aside {
 }
 
 .pagination {
-  float: right;
-  width: 700px;
   min-height: 43px;
   background-color: #ae38d5;
 }
@@ -234,6 +241,7 @@ aside {
   display: inline-block;
   width: 140px;
   height: 149px; 
+  vertical-align: top;
   margin-right: 20px;
 }
 
@@ -276,7 +284,7 @@ a:last-child {
   display: inline-block;
 }
 
-.content {
+.product-content {
   min-height: 180px;
   background-color: #9fa6b8;
 
