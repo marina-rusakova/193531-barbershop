@@ -6,12 +6,12 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="main-header">
-    <div class="container">
+  <header class="current-header">
+    <div class="container clearfix">
       <a class="main-page" href="#">
         <img class="logo" src="img/logo.png" width="111" height="24" alt="Логотип">
       </a>
-      <nav class="main-navigation">
+      <nav class="current-navigation">
         <ul>
           <li>
             <a href="#">Информация</a>
@@ -31,27 +31,27 @@
         </ul>
       </nav>
       <div class="user-block">
-        <a class="login" href="#">Вход</a> 
+        <a class="login" href="#">Вход</a>
       </div>
     </div>
   </header>
-  <main class="container">
+  <main class="container clearfix">
     <h1 class="main-title">Средства для ухода</h1>
     <ul class="breadcrumbs">
       <li>
-        <a href="#">Главная</a> 
+        <a href="#">Главная</a>
       </li>
       <li>
-        <a href="#">Магазин</a> 
+        <a href="#">Магазин</a>
       </li>
       <li>
-        Средства для ухода  
+        Средства для ухода
       </li>
     </ul>
     <aside>
       <form action="#" method="get">
-        <fieldset>
-          <legend>Производители:</legend>
+        <fieldset class="producer-block">
+          <legend class="producer-title">Производители:</legend>
           <ul class="producer">
             <li>
               <label>
@@ -85,8 +85,8 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset>
-          <legend>Группы товаров:</legend>
+        <fieldset class="group-block">
+          <legend class="group-title">Группы товаров:</legend>
           <ul class="group">
             <li>
               <label>
@@ -196,7 +196,7 @@
     </section>
   </main>
   <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -214,6 +214,6 @@
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
       </div>
-    </footer>  
+    </footer>
 </body>
 </html>

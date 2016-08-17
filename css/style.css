@@ -1,11 +1,312 @@
 body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
 	font-weight: bold;
 	font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
 	text-transform: uppercase;
+  /*Для главной страницы*/
+  /*background: #ffffff url("../img/barbeshop_index_maket.jpg") no-repeat 50% 0px;*/
+  /*background-size: 2560px auto;*/
+  /*Для страницы каталога*/
+  /*background: #ffffff url("../img/barbershop_catalog_maket.jpg") no-repeat 50% 0px;*/
+  /*background-size: 1200px auto;*/
+  /*Для страницы продукта*/
+  /*background: #ffffff url("../img/barbershop_item_maket.jpg") no-repeat 50% 0px;*/
+  /*background-size: 1200px auto;*/
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  /*opacity: 0.8;*/
+  margin-bottom: 60px;
+  background-color: #2a18de;
+}
+
+.current-header {
+  /*opacity: 0.8;*/
+  margin-bottom: 50px;
+  background-color: #2a18de;
+}
+
+.main-navigation li, .current-navigation li {
+  display: inline-block;
+}
+
+.container {
+  /*opacity: 0.8;*/
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #eaec69;
+}
+
+.main-page {
+  display: inline-block;
+  float: left;
+  width: 140px;
+  min-height: 70px;
+  margin-right: 20px;
+  vertical-align: middle;
+  background-color: #9fa6b8;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+  background-color: #9fa6b8;
+}
+
+.current-navigation {
+  float: left;
+  width: 620px;
+  min-height: 70px;
+  background-color: #9fa6b8;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+  background-color: #9fa6b8;
+}
+
+.main-title {
+  margin-bottom: 15px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 40px;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 22px;
+  background-color: #9fa6b8;
+}
+
+.features {
+  margin-bottom: 65px;
+  background-color: #ae38d5;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  min-height: 175px;
+  background-color: #9fa6b8;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+  background-color: #ae38d5;
+}
+
+.index-content-news, .index-content-contacts {
+  float: left;
+  width: 380px;
+  background-color: #9fa6b8;
+}
+
+.index-content-news, .index-content-gallery {
+  height: 319px;
+}
+
+.index-content-contacts, .index-content-datetime {
+  min-height: 296px;
+}
+
+.index-content-gallery, .index-content-datetime {
+  float: right;
+  width: 300px;
+  background-color: #9fa6b8;
+}
+
+aside {
+  float: left;
+  width: 220px;
+  min-height: 592px;
+  background-color: #ae38d5;
+}
+
+.products {
+  float:right;
+  width: 700px;
+  min-height: 592px;
+  margin-bottom: 45px;
+  font-size: 0px;
+  background-color: #ae38d5;
+}
+
+.product {
+  display: inline-block;
+  width: 220px;
+  min-height: 286px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+  background-color: #9fa6b8;
+}
+
+.product:nth-child(3n+3) {
+  margin-right: 0px;
+}
+
+.product:nth-child(1n+4) {
+  margin-bottom: 0px;
+}
+
+.product p, .product a {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.pagination {
+  clear: both;
+  width: 220px;
+  min-height: 43px;
+  margin-left: 240px;
+  font-size: 0px;
+}
+
+.pagination a {
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  width: 43px;
+  height: 43px;
+  margin-right: 7px;
+  font-size: 14px;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+}
+
+.photos {
+  float: left;
+  width: 460px;
+  font-size: 0px;
+  line-height: 0px;
+  background-color: #ae38d5;
+}
+
+.small-photo {
+  width: 460px;
+  height: 149px;
+  margin-top: 21px;
+}
+
+.small-photo a {
+  display: inline-block;
+  width: 140px;
+  height: 149px; 
+  margin-right: 20px;
+}
+
+a:last-child {
+  margin-right: 0px;
+}
+
+.information {
+  float: right;
+  width: 380px;
+  padding-left: 70px;
+  padding-right: 10px;
+  background-color: #ae38d5;
+}
+
+.description {
+  width: 380px;
+  min-height: 200px;
+  background-color: #9fa6b8;
+  margin-bottom: 40px;
+}
+
+.description-availability {
+  float: left;
+  width: 230px;
+}
+
+.description-article {
+  float: right;
+  width: 114px;
+}
+
+.product-purchase {
+  float: left;
+  width: 187px;
+  height: 43px;
+  margin-bottom: 40px;
+  background-color: #9fa6b8;
+}
+
+.product-price, .product-buy  {
+  display: inline-block;
+}
+
+.content {
+  float: left;
+  width: 380px;
+  min-height: 180px;
+  background-color: #9fa6b8;
+
+}
+
+.main-footer {
+  /*opacity: 0.6;*/
+  margin-top: 49px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #2a18de;
+}
+
+.first-page {
+  margin-top: 65px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+  background-color: #9fa6b8;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+  background-color: #9fa6b8;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+  background-color: #9fa6b8;
+}
+
+
 
 h1 {
 	font-size: 30px;
