@@ -184,7 +184,7 @@ aside {
   background-color: #9fa6b8;
 }
 
-.product:nth-child(3n+3) {
+.product:nth-child(3n) {
   margin-right: 0px;
 }
 
@@ -200,18 +200,11 @@ aside {
 
 .pagination {
   min-height: 43px;
+  font-size: 0px;
   background-color: #ae38d5;
 }
 
-.pagination-page {
-  float: left;
-  width: 193px;
-  min-height: 43px;
-  font-size: 0px;
-  background-color: #9fa6b8;
-}
-
-.pagination-page a {
+.pagination a {
   display: inline-block;
   vertical-align: bottom;
   text-align: center;
@@ -258,7 +251,6 @@ a:last-child {
 }
 
 .description {
-  width: 380px;
   min-height: 200px;
   background-color: #9fa6b8;
   margin-bottom: 40px;
